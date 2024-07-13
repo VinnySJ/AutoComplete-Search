@@ -9,8 +9,8 @@
 usando as próprias queries do graphQL, para fins didáticos. Portanto, só há o método get criado;
 - Caso seja necessário popular o banco de dados, há um script em ./src/db/add_to_db.js que adiciona
 as sugestões de pesquisa, uma por linha, através de um arquivo add_me.txt, no mesmo diretório;
-- Há um diagrama de blocos da aplicação na pasta diagram
-- Front em React/tailwind CSS, servidor em Node.js, back em JavaScript.
+- Há um diagrama de blocos da aplicação na pasta diagram;
+- Front em React/tailwind CSS, servidor em Node.js, back em JavaScript;
 - Sugestões de pesquisa em inglês, estão nichadas na área de TI.
 
 ### COMENTÁRIOS
