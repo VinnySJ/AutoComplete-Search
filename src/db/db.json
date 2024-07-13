@@ -1,0 +1,676 @@
+{
+	"search": [
+		{
+			"id": 1,
+			"text": "3D printing technology"
+		},
+		{
+			"id": 2,
+			"text": "AI ethics and regulations"
+		},
+		{
+			"id": 3,
+			"text": "AI in autonomous vehicles"
+		},
+		{
+			"id": 4,
+			"text": "AI-powered chatbot development"
+		},
+		{
+			"id": 5,
+			"text": "AR applications in education"
+		},
+		{
+			"id": 6,
+			"text": "AR for virtual tourism experiences"
+		},
+		{
+			"id": 7,
+			"text": "Advanced C++ programming techniques"
+		},
+		{
+			"id": 8,
+			"text": "Advanced JavaScript programming techniques"
+		},
+		{
+			"id": 9,
+			"text": "Advanced Python programming techniques"
+		},
+		{
+			"id": 10,
+			"text": "Advanced programming languages"
+		},
+		{
+			"id": 11,
+			"text": "Agile software development practices"
+		},
+		{
+			"id": 12,
+			"text": "Artificial intelligence"
+		},
+		{
+			"id": 13,
+			"text": "Artificial intelligence in healthcare"
+		},
+		{
+			"id": 14,
+			"text": "Asynchronous programming in JavaScript (Promises, async/await)"
+		},
+		{
+			"id": 15,
+			"text": "Augmented reality applications"
+		},
+		{
+			"id": 16,
+			"text": "Augmented reality marketing campaigns"
+		},
+		{
+			"id": 17,
+			"text": "Best IDEs for C++ development"
+		},
+		{
+			"id": 18,
+			"text": "Best books for learning C++"
+		},
+		{
+			"id": 19,
+			"text": "Best budget smartphones"
+		},
+		{
+			"id": 20,
+			"text": "Best gaming monitors under $300"
+		},
+		{
+			"id": 21,
+			"text": "Best laptops for programming"
+		},
+		{
+			"id": 22,
+			"text": "Big data analytics platforms"
+		},
+		{
+			"id": 23,
+			"text": "Big data analytics tools"
+		},
+		{
+			"id": 24,
+			"text": "Blockchain applications beyond cryptocurrency"
+		},
+		{
+			"id": 25,
+			"text": "Blockchain for supply chain management"
+		},
+		{
+			"id": 26,
+			"text": "Blockchain interoperability solutions"
+		},
+		{
+			"id": 27,
+			"text": "Blockchain technology"
+		},
+		{
+			"id": 28,
+			"text": "Career paths in data science"
+		},
+		{
+			"id": 29,
+			"text": "Chatbot implementation strategies"
+		},
+		{
+			"id": 30,
+			"text": "Cloud computing"
+		},
+		{
+			"id": 31,
+			"text": "Cloud computing security best practices"
+		},
+		{
+			"id": 32,
+			"text": "Cloud storage providers comparison"
+		},
+		{
+			"id": 33,
+			"text": "Cloud-native application development"
+		},
+		{
+			"id": 34,
+			"text": "Coding interview questions in C++"
+		},
+		{
+			"id": 35,
+			"text": "Concurrency and parallelism in Python"
+		},
+		{
+			"id": 36,
+			"text": "Cross-platform development with C++"
+		},
+		{
+			"id": 37,
+			"text": "Cryptocurrency investment tips"
+		},
+		{
+			"id": 38,
+			"text": "Cryptocurrency mining guides"
+		},
+		{
+			"id": 39,
+			"text": "Cryptocurrency trading platforms"
+		},
+		{
+			"id": 40,
+			"text": "Cryptocurrency trading strategies"
+		},
+		{
+			"id": 41,
+			"text": "Cybersecurity careers guide"
+		},
+		{
+			"id": 42,
+			"text": "Cybersecurity certifications"
+		},
+		{
+			"id": 43,
+			"text": "Cybersecurity for remote work"
+		},
+		{
+			"id": 44,
+			"text": "Cybersecurity threats 2024"
+		},
+		{
+			"id": 45,
+			"text": "Cybersecurity tips"
+		},
+		{
+			"id": 46,
+			"text": "Cybersecurity tips for small businesses"
+		},
+		{
+			"id": 47,
+			"text": "Data analysis with Python"
+		},
+		{
+			"id": 48,
+			"text": "Data engineering career paths"
+		},
+		{
+			"id": 49,
+			"text": "Data science courses"
+		},
+		{
+			"id": 50,
+			"text": "Data visualization tools comparison"
+		},
+		{
+			"id": 51,
+			"text": "Data visualization with matplotlib and seaborn"
+		},
+		{
+			"id": 52,
+			"text": "Debugging Python code"
+		},
+		{
+			"id": 53,
+			"text": "Deep learning with TensorFlow or PyTorch"
+		},
+		{
+			"id": 54,
+			"text": "Digital advertising platforms"
+		},
+		{
+			"id": 55,
+			"text": "Digital marketing automation tools"
+		},
+		{
+			"id": 56,
+			"text": "Digital marketing strategies"
+		},
+		{
+			"id": 57,
+			"text": "Digital transformation strategies"
+		},
+		{
+			"id": 58,
+			"text": "E-commerce platforms comparison"
+		},
+		{
+			"id": 59,
+			"text": "Ethical hacking techniques"
+		},
+		{
+			"id": 60,
+			"text": "Exception handling in C++"
+		},
+		{
+			"id": 61,
+			"text": "Express.js web framework"
+		},
+		{
+			"id": 62,
+			"text": "Frontend development with React"
+		},
+		{
+			"id": 63,
+			"text": "Frontend development with Vue.js"
+		},
+		{
+			"id": 64,
+			"text": "Full-stack JavaScript development"
+		},
+		{
+			"id": 65,
+			"text": "Future of technology predictions"
+		},
+		{
+			"id": 66,
+			"text": "GUI development in C++"
+		},
+		{
+			"id": 67,
+			"text": "Game design principles"
+		},
+		{
+			"id": 68,
+			"text": "Game development engines comparison"
+		},
+		{
+			"id": 69,
+			"text": "Gaming PCs"
+		},
+		{
+			"id": 70,
+			"text": "IT infrastructure management solutions"
+		},
+		{
+			"id": 71,
+			"text": "IT project management tools"
+		},
+		{
+			"id": 72,
+			"text": "Immersive VR gaming experiences"
+		},
+		{
+			"id": 73,
+			"text": "Internet of Things (IoT)"
+		},
+		{
+			"id": 74,
+			"text": "Internet security best practices"
+		},
+		{
+			"id": 75,
+			"text": "IoT applications in agriculture"
+		},
+		{
+			"id": 76,
+			"text": "IoT devices for smart homes"
+		},
+		{
+			"id": 77,
+			"text": "IoT security challenges"
+		},
+		{
+			"id": 78,
+			"text": "JavaScript AJAX and Fetch API"
+		},
+		{
+			"id": 79,
+			"text": "JavaScript DOM manipulation"
+		},
+		{
+			"id": 80,
+			"text": "JavaScript ES6/ES7/ES8 features comparison"
+		},
+		{
+			"id": 81,
+			"text": "JavaScript IDEs and code editors"
+		},
+		{
+			"id": 82,
+			"text": "JavaScript best practices and coding conventions"
+		},
+		{
+			"id": 83,
+			"text": "JavaScript books and online courses recommendations"
+		},
+		{
+			"id": 84,
+			"text": "JavaScript conferences and events 2024"
+		},
+		{
+			"id": 85,
+			"text": "JavaScript data structures and algorithms"
+		},
+		{
+			"id": 86,
+			"text": "JavaScript debugging techniques"
+		},
+		{
+			"id": 87,
+			"text": "JavaScript design patterns"
+		},
+		{
+			"id": 88,
+			"text": "JavaScript interview questions and answers"
+		},
+		{
+			"id": 89,
+			"text": "JavaScript libraries and frameworks overview"
+		},
+		{
+			"id": 90,
+			"text": "JavaScript performance optimization"
+		},
+		{
+			"id": 91,
+			"text": "JavaScript security best practices"
+		},
+		{
+			"id": 92,
+			"text": "JavaScript testing frameworks (Jest, Mocha, Jasmine)"
+		},
+		{
+			"id": 93,
+			"text": "JavaScript tutorials for beginners"
+		},
+		{
+			"id": 94,
+			"text": "Job opportunities for C++ developers"
+		},
+		{
+			"id": 95,
+			"text": "Lambda expressions in C++"
+		},
+		{
+			"id": 96,
+			"text": "Latest tech gadgets reviews"
+		},
+		{
+			"id": 97,
+			"text": "Latest tech gadgets under $1000"
+		},
+		{
+			"id": 98,
+			"text": "Latest tech gadgets under $500"
+		},
+		{
+			"id": 99,
+			"text": "Machine learning algorithms"
+		},
+		{
+			"id": 100,
+			"text": "Machine learning for fraud detection"
+		},
+		{
+			"id": 101,
+			"text": "Machine learning libraries overview"
+		},
+		{
+			"id": 102,
+			"text": "Machine learning model deployment"
+		},
+		{
+			"id": 103,
+			"text": "Machine learning with Python"
+		},
+		{
+			"id": 104,
+			"text": "Memory management in C++"
+		},
+		{
+			"id": 105,
+			"text": "Mobile app development tools"
+		},
+		{
+			"id": 106,
+			"text": "Mobile app monetization strategies"
+		},
+		{
+			"id": 107,
+			"text": "Multithreading in C++"
+		},
+		{
+			"id": 108,
+			"text": "Natural language processing tutorials"
+		},
+		{
+			"id": 109,
+			"text": "Natural language processing with Python"
+		},
+		{
+			"id": 110,
+			"text": "Network security solutions"
+		},
+		{
+			"id": 111,
+			"text": "Networking libraries in C++"
+		},
+		{
+			"id": 112,
+			"text": "Node.js backend development"
+		},
+		{
+			"id": 113,
+			"text": "Object-oriented programming in C++"
+		},
+		{
+			"id": 114,
+			"text": "Online retail trends"
+		},
+		{
+			"id": 115,
+			"text": "Performance optimization in C++"
+		},
+		{
+			"id": 116,
+			"text": "Predictive analytics tools"
+		},
+		{
+			"id": 117,
+			"text": "Python GUI development"
+		},
+		{
+			"id": 118,
+			"text": "Python IDEs and code editors"
+		},
+		{
+			"id": 119,
+			"text": "Python best practices and coding conventions"
+		},
+		{
+			"id": 120,
+			"text": "Python books and online courses recommendations"
+		},
+		{
+			"id": 121,
+			"text": "Python certification exams"
+		},
+		{
+			"id": 122,
+			"text": "Python community forums and resources"
+		},
+		{
+			"id": 123,
+			"text": "Python conferences and events 2024"
+		},
+		{
+			"id": 124,
+			"text": "Python data analysis libraries"
+		},
+		{
+			"id": 125,
+			"text": "Python decorators and generators"
+		},
+		{
+			"id": 126,
+			"text": "Python for automation (scripting)"
+		},
+		{
+			"id": 127,
+			"text": "Python frameworks comparison"
+		},
+		{
+			"id": 128,
+			"text": "Python interview questions and answers"
+		},
+		{
+			"id": 129,
+			"text": "Python libraries and frameworks overview"
+		},
+		{
+			"id": 130,
+			"text": "Python programming tutorials"
+		},
+		{
+			"id": 131,
+			"text": "Python tutorials for beginners"
+		},
+		{
+			"id": 132,
+			"text": "Python vs. Java performance comparison"
+		},
+		{
+			"id": 133,
+			"text": "Quantum computing applications"
+		},
+		{
+			"id": 134,
+			"text": "Quantum computing explained"
+		},
+		{
+			"id": 135,
+			"text": "Quantum cryptography explained"
+		},
+		{
+			"id": 136,
+			"text": "Remote JavaScript jobs and freelance opportunities"
+		},
+		{
+			"id": 137,
+			"text": "Remote Python jobs and freelance opportunities"
+		},
+		{
+			"id": 138,
+			"text": "Responsive web design with JavaScript"
+		},
+		{
+			"id": 139,
+			"text": "Robotics in healthcare"
+		},
+		{
+			"id": 140,
+			"text": "Robotics in industry 4.0"
+		},
+		{
+			"id": 141,
+			"text": "Robotics innovations 2024"
+		},
+		{
+			"id": 142,
+			"text": "STL (Standard Template Library) overview"
+		},
+		{
+			"id": 143,
+			"text": "Smart home devices"
+		},
+		{
+			"id": 144,
+			"text": "Smart pointers in C++"
+		},
+		{
+			"id": 145,
+			"text": "Social media chatbot integration"
+		},
+		{
+			"id": 146,
+			"text": "Software development methodologies"
+		},
+		{
+			"id": 147,
+			"text": "Software development trends"
+		},
+		{
+			"id": 148,
+			"text": "Speech recognition technology"
+		},
+		{
+			"id": 149,
+			"text": "Tech IPOs to watch 2024"
+		},
+		{
+			"id": 150,
+			"text": "Tech gadgets under $100"
+		},
+		{
+			"id": 151,
+			"text": "Tech mergers and acquisitions 2024"
+		},
+		{
+			"id": 152,
+			"text": "Tech news updates"
+		},
+		{
+			"id": 153,
+			"text": "Tech startups to watch"
+		},
+		{
+			"id": 154,
+			"text": "Template metaprogramming in C++"
+		},
+		{
+			"id": 155,
+			"text": "Top gaming laptops under $1500"
+		},
+		{
+			"id": 156,
+			"text": "Unit testing frameworks for C++"
+		},
+		{
+			"id": 157,
+			"text": "Unit testing in Python"
+		},
+		{
+			"id": 158,
+			"text": "Virtual reality for training simulations"
+		},
+		{
+			"id": 159,
+			"text": "Virtual reality gaming experiences"
+		},
+		{
+			"id": 160,
+			"text": "Virtual reality headsets"
+		},
+		{
+			"id": 161,
+			"text": "Web design trends 2024"
+		},
+		{
+			"id": 162,
+			"text": "Web development frameworks"
+		},
+		{
+			"id": 163,
+			"text": "Web development tools 2024"
+		},
+		{
+			"id": 164,
+			"text": "Web development trends 2024"
+		},
+		{
+			"id": 165,
+			"text": "Web development with Django"
+		},
+		{
+			"id": 166,
+			"text": "Web hosting providers comparison"
+		},
+		{
+			"id": 167,
+			"text": "Web scraping with Python"
+		},
+		{
+			"id": 168,
+			"text": "Wireless routers comparison"
+		}
+	]
+}

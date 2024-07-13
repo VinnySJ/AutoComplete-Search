@@ -1,0 +1,15 @@
+ARG NODE_VERSION=20.15.1
+
+FROM node:${NODE_VERSION}-alpine as base
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD npm start

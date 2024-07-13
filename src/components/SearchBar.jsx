@@ -1,77 +1,84 @@
 import React, { useState } from 'react';
+import { getData } from '../data/get_request.js';
 
-const tmp = [];
-for (let i = 0; i < 10; i++) tmp.push({ id: i, val: `prefixo ${i}` });
 
 function SearchBar() {
+    // I guess there is a better way to handle multiple hooks...
+    const [query, setQuery] = useState('');
+    const [suggestions, setSuggestions] = useState([]);
+    const [displaySuggestions, setDisplaySuggestions] = useState(false);
 
-  const [query, setQuery] = useState('');
-  const [suggestions, setSuggestions] = useState([]);
-  const [displaySuggestions, setDisplaySuggestions] = useState(false);
+    // Get request
+    const getSearchSuggestions = (text) => {
+        const url = "http://localhost:8080/graphql/user_text/?user_text=";
+        getData(url, text).then((data_result) => {
+            setSuggestions(data_result);
+        })
+    }
 
-  const handleInputChange = (e) => {
-    const text = e.target.value;
+    // Updates user text (query) value
+    const handleInputChange = (user_text) => {
+        const text = user_text.target.value;
+        console.log(text);
+        setDisplaySuggestions(text.length >= 4);
+        setQuery(text);
+        getSearchSuggestions(text);
+    }
 
-    if (text.length >= 4) {
-      setDisplaySuggestions(true);
-    } else setDisplaySuggestions(false);
+    // If user clicks, remove all suggestions and "process" the search
+    const handleChooseSuggestion = (value) => {
+        setQuery(value);
+        setDisplaySuggestions(false);
+    }
 
-    setQuery(text);
-  };
-
-  const handleChooseSuggestion = (value) => {
-	setQuery(value);
-	setDisplaySuggestions(false);
-  }
-  const getHighlightedText = (text, highlight) => {
-    const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-    return (
-      <span>
-        {parts.map((part, i) =>
-          part.toLowerCase() === highlight.toLowerCase() ? (
-            <span key={i} className="font-bold">
-              {part}
+    // Highlights the prefix of user's text
+    const getHighlightedText = (text, highlight) => {
+        highlight = highlight.trimEnd();
+        const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
+        return (
+            <span>
+                {parts.map((part, i) => part.toLowerCase() === highlight.toLowerCase() ? 
+                    <span key={i} className="font-bold">
+                    {part}
+                    </span>
+                : part
+                )}
             </span>
-          ) : (
-            part
-          )
-        )}
-      </span>
-    );
-  };
-  return (
-    <div className="flex flex-col items-center justify-center mt-4">
+        )
+    }
 
-      <div className="flex items-center justify-center">
-        <div className="relative">
-          <input
-            type="text"
-            className= "w-96 max-w-md p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-600"
-            placeholder="Search..."
-            value={query}
-            onChange={handleInputChange}
-          />
-          {displaySuggestions && (
-            <div className="absolute mt-2 w-full bg-white border border-gray-300 rounded-md shadow-lg">
-              {tmp
-				.filter((ele) => ele.val.toLowerCase().includes(query.toLowerCase()))
-			  	.map((ele) => (
-                	<div key={ele.id} 
-					className="p-2 hover:bg-blue-100 cursor-pointer"
-					onClick={() => handleChooseSuggestion(ele.val)}>
-                  	{/* {ele.val} */}
-					{getHighlightedText(ele.val, query)}
+    return (
+        <div className="flex flex-col items-center justify-center mt-4">
+
+        <div className="flex items-center justify-center">
+            <div className="relative">
+            <input
+                type="text"
+                className= "w-96 max-w-md p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                placeholder="Search..."
+                value={query}
+                onChange={handleInputChange}
+            />
+            {displaySuggestions && (
+                <div className="max-h-[400px] overflow-y-auto absolute mt-2 w-full bg-white border border-gray-300 rounded-md shadow-lg">
+                {suggestions
+                .map((searchSuggestions) => (
+                    <div key={searchSuggestions.id} 
+                        className="p-2 hover:bg-gray-100 cursor-pointer"
+                        onClick={() => handleChooseSuggestion(searchSuggestions.text)}>
+                        {getHighlightedText(searchSuggestions.text, query)}
+                    </div>
+                ))}
                 </div>
-              ))}
+            )}
             </div>
-          )}
+            <button className="p-2 bg-blue-600 text-white rounded-r-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600">
+            Search
+            </button>
         </div>
-        <button className="p-2 bg-blue-600 text-white rounded-r-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600">
-          Search
-        </button>
-      </div>
-    </div>
-  );
+
+        </div>
+    )
 }
 
 export default SearchBar;
