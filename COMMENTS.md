@@ -11,6 +11,7 @@ usando as próprias queries do graphQL, para fins didáticos. Portanto, só há 
 as sugestões de pesquisa, uma por linha, através de um arquivo add_me.txt, no mesmo diretório;
 - Há um diagrama de blocos da aplicação na pasta diagram
 - Front em React/tailwind CSS, servidor em Node.js, back em JavaScript.
+- Sugestões de pesquisa em inglês, estão nichadas na área de TI.
 
 ### COMENTÁRIOS
 
