@@ -2,7 +2,7 @@
 
 ### INFORMAÇÕES
 
-- O aplicativo está executando com "docker compose-up --build" / "docker compose-up";
+- O aplicativo está executando com "docker compose up --build" / "docker compose up";
 - O host está em "http://localhost:3000/";
 - O código e os comentários presentes nesse foram feitos "in english";
 - Apesar do banco de dados ser local (json), ainda é feito requisições para obter as informações,
